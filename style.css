@@ -1,3 +1,17 @@
+*{
+	font-family: sans-serif;
+
+}
+/*
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+ Track 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}*/
 nav {
 	height: 80px;
 	width: auto;
@@ -8,6 +22,7 @@ nav {
 }
 li {
 	list-style-type: none; 
+	
 }
 #PIZZACAMP {
 	display: inline-block;
@@ -29,7 +44,7 @@ nav h1 {
 
 } 
 img {
-	
+
 	height: 90px;
 	width: 90px;
 	position: relative;
@@ -113,7 +128,7 @@ div#item6{
 
 }
 body {
-	background-color: #0d0d0d;
+	background-color: #606060;
 }
 .container img{
 width: 200px;
@@ -167,4 +182,7 @@ nav img {
 #enter-coupon{
 	width: 250px;
 	height: 20px;
+}
+#total-section{
+	overflow-y: scroll;
 }

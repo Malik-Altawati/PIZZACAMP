@@ -168,7 +168,7 @@ $('#submit').on('click',function(){
 		var array = $('li').text().split('$');
 		var empty = [];
 for (var i = 0; i < array.length; i++){
-		
+
        empty.push(array[i]+' $')
 }
 var str = empty.join('\n')
@@ -181,3 +181,4 @@ var str = empty.join('\n')
 	// var number = $('#number').val();
 	// $('h2 span#addr').append(address);
 })
+
