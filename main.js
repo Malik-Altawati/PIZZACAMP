@@ -33,7 +33,7 @@
 $('.plus').on('click',function(){
 
 	var search = ($(this).attr('id'));
-  console.log(search);
+
  
 	for(var i = 0; i < objects.length; i++){
 
@@ -98,7 +98,7 @@ $('.plus').on('click',function(){
 $('.minus').on('click',function(){
 
 	var search = ($(this).attr('id'));
-  console.log(search);
+
   
 
 	for (var i = 0; i < objects.length; i++){
@@ -163,3 +163,21 @@ for (var i = 0; i < coupons.length; i++){
 $('h2 span').text(totalPrice + '$');
 });
 
+
+$('#submit').on('click',function(){
+		var array = $('li').text().split('$');
+		var empty = [];
+for (var i = 0; i < array.length; i++){
+		
+       empty.push(array[i]+' $')
+}
+var str = empty.join('\n')
+
+		confirm("Confirmation Message \n You address is : " + $('#address').val()+ " \n Your number is : "+$('#number').val()
+				+ "\n You ordered : \n"+ str + " \n Your total is : "+ totalPrice +"$");
+
+	// var total = totalPrice
+	// var address = $('#address').val();
+	// var number = $('#number').val();
+	// $('h2 span#addr').append(address);
+})
