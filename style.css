@@ -31,7 +31,7 @@ nav h1 {
 img {
 	height: 90px;
 	width: 90px;
-	bottom: 5px;
+	position: relative;
 
 }
 /*
@@ -119,6 +119,7 @@ width: 200px;
 height: 250px;
 border-radius: 10px;
 border: solid 2px #ffbf00;
+position: relative;
 }
 .container div {
 
@@ -154,4 +155,15 @@ nav img {
 	position: relative;
 	right:120px
 	margin:10px;
+}
+#img1{
+	position: relative;
+}
+
+#cancel{
+	margin-top: 10px;
+}
+#enter-coupon{
+	width: 250px;
+	height: 20px;
 }

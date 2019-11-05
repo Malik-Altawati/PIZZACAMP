@@ -13,40 +13,36 @@
 			<h1>PIZZACAMP</h1>
 		</div>
 
-		<!--<ul>
-		  <li><a href="#contact">Contact</a></li>
-		  
-		</ul> -->
-			
+	
 	</nav>
 	<section>
 		<div class="container">
 			<div id="item1">
                 <h2 id='title1'>Margherita Pizza</h2>
-				<img src='item1.jpg'>
+				<img src='item4.jpg' id="img1">
 				<br>
 				<p>Price : 9.99$</p>
-				<button id='item1plus'>+</button>
+				<button id='item1plus'  class="plus">+</button>
 				<p id="it1">--</p>
-				<button id='item1minus'>-</button>
+				<button id='item1minus' class="minus">-</button>
 			</div>
 			<div id="item2">
                 <h2 id='title2'>Tunisian Pizza</h2>
-				<img src='item2.jpg'>
+				<img src='item4.jpg' class="img2">
 				<br>
 				<p>Price : 10.99$</p>
-				<button id='item2plus'>+</button>
+				<button id='item2plus' class="plus">+</button>
 				<p id="it2">--</p>
-				<button id='item2minus'>-</button>
+				<button id='item2minus' class="minus">-</button>
 			</div>
 			<div id="item3">
 				<h2 id='title3'>Italian Pizza</h2>
-				<img src='item3.jpg'>
+				<img src='item4.jpg'>
 				<br>
 				<p>Price : 7.99$</p>
-				<button id='item3plus'>+</button>
+				<button id='item3plus' class="plus">+</button>
 				<p id="it3">--</p>
-				<button id='item3minus'>-</button>
+				<button id='item3minus' class="minus">-</button>
 			</div>
 		</div>
 		<div class="container">
@@ -55,37 +51,43 @@
 				<img src='item4.jpg'>
 				<br>
 				<p>Price : 12.99$</p>
-				<button id='item4plus'>+</button>
+				<button id='item4plus' class="plus">+</button>
 				<p id="it4">--</p>
-				<button id='item4minus'>-</button>
+				<button id='item4minus' class="minus">-</button>
 
 			</div>
 			<div id="item5">
 				 <h2 id='title5'>Greek Pizza</h2>
-				<img src='item5.jpg'>
+				<img src='item4.jpg'>
 				<br>
 				<p>Price : 5.99$</p>
-				<button id='item5plus'>+</button>
+				<button id='item5plus' class="plus">+</button>
 				<p id="it5">--</p>
-				<button id='item5minus'>-</button>
+				<button id='item5minus' class="minus">-</button>
 			</div>
 			<div id="item6">
 				 <h2 id='title6'>California Pizza</h2>
-				<img src='item6.jpg'>
+				<img src='item4.jpg'>
 				<br>
 				<p>Price : 20.99$</p>
-				<button id='item6plus'>+</button>
+				<button id='item6plus' class="plus">+</button>
 				<p id="it6">--</p>
-				<button id='item6minus'>-</button>
+				<button id='item6minus' class="minus">-</button>
 			</div>
 		</div>
 	</section>
 	<div id="total-section">
-		<h2>Total :</h2>
-		<ul>
-			
-		</ul>
-		<button>Cancel order</button>
+		<h2>Total : <span>0$</span></h2>
+		
+		<ul id="ul1"></ul>
+		<ul id="ul2"></ul>
+		<ul id="ul3"></ul>
+		<ul id="ul4"></ul>
+		<ul id="ul5"></ul>
+		<ul id="ul6"></ul>
+		<input id='enter-coupon' type="text" placeholder="write your coupon for 20% discount"> 
+		<button id='coupon'>check coupon</button> <br>
+		<button id='cancel'>Cancel order</button>
 		<h2>Address :</h2>
 		<textarea rows="4" cols="50" placeholder="write your address here please..."></textarea>
 		<h2>Phone number</h2>
