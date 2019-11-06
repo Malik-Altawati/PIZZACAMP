@@ -132,6 +132,9 @@ $('#cancel').on('click', function() {
   $('li').remove();
   $('h2 span').text(totalPrice + '$');
   $('.reset').text('--')
+  $('input').val('');
+  $('textarea').val('');
+
 })
 
 ////////////////////////////////////////////////////////
@@ -169,6 +172,9 @@ $('#submit').on('click', function() {
 
     confirm("Confirmation Message \n You address is : " + $('#address').val() + " \n Your number is : " + $('#number').val() +
       "\n You ordered : \n" + str + " \n"+'----------'+'\n' +"Your total is : " +totalPrice + "$");
+
+    $('input').val('');
+    $('textarea').val('');
   }
   totalPrice = 0
   $('.reset').text('--')
