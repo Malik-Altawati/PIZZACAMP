@@ -2,16 +2,11 @@
 	font-family: sans-serif;
 
 }
-/*
-::-webkit-scrollbar {
-  width: 10px;
+
+body {
+	background-color: #606060;
 }
 
-
- Track 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}*/
 nav {
 	height: 80px;
 	width: auto;
@@ -20,98 +15,76 @@ nav {
 	text-align: center;
 
 }
+
 li {
-	list-style-type: none; 
-	
+	list-style-type: none; 	
 }
+
 #PIZZACAMP {
 	display: inline-block;
 	width: 80%;
     text-shadow: 2px 2px #ff0000;
     position: relative;
     bottom: 25px;
-    font-size: 30px;
-
-
-
-	
+    font-size: 30px;	
 }
+
 nav h1 {
 	display: inline-block;
 	color: #ffbf00	;
-
-
-
 } 
-img {
 
+img {
 	height: 90px;
 	width: 90px;
 	position: relative;
-
 }
-/*
-ul {
-	margin: 20px;
-	text-align: right;
-	border: solid red 2px;
-	width: 50px
-}
-li{
-	list-style-type: none;
 
-}*/
 section{
 	text-align: center;
 }
+
 .container div {
 	border-radius: 40px;
 }
+
 .container {
 	display: flex;
-	text-align: center;
-
-	/*flex-direction: row;*/
+	text-align: center;	
 }
+
 div#item1{
  
   border: 2px solid #ffbf00;
   margin: 20px;
   width:300px;
   margin-left:100px;
- /* margin-left: auto;
-  margin-right: auto;*/
 }
-div#item2{
-	
+
+div#item2{	
 	border: 2px solid #ffbf00;
 	margin: 20px;
 	width:300px;
 	margin-left: auto;
     margin-right: auto;
 }
-div#item3{
-	
-	border: 2px solid #ffbf00;
 
+div#item3{
+	border: 2px solid #ffbf00;
 	margin: 20px;
 	width:300px;
 	margin-right:100px;
 
 }
 
-
 div#item4{
- 
   border: 2px solid #ffbf00;
   margin: 20px;
   width:300px;
-  	margin-left:100px;
- /* margin-left: auto;
-  margin-right: auto;*/
+  margin-left:100px;
 }
+
 div#item5{
-	
 	border: 2px solid #ffbf00;
 	margin: 20px;
 	width:300px;
@@ -120,25 +93,21 @@ div#item5{
 }
 
 div#item6{
-	
 	border: 2px solid #ffbf00;
 	margin: 20px;
 	width:300px;
 	margin-right:100px;
+}
 
-}
-body {
-	background-color: #606060;
-}
 .container img{
-width: 200px;
-height: 250px;
-border-radius: 10px;
-border: solid 2px #ffbf00;
-position: relative;
+	width: 200px;
+	height: 250px;
+	border-radius: 10px;
+	border: solid 2px #ffbf00;
+	position: relative;
 }
-.container div {
 
+.container div {
 	color: #ffbf00	;
 	background-color: #330000;
 }
@@ -146,11 +115,13 @@ position: relative;
 .container p {
 	display: inline-block;
 }
+
 section button {
 	width: 30px;
 	margin: 5px;
 	border-radius: 5px;
 }
+
 #total-section {
 	color: #ffbf00;
 	background-color: #330000;
@@ -163,6 +134,7 @@ footer p {
 	color: white;
 	text-align: center;
 }
+
 footer a {
 	color: #ffbf00;
 }
@@ -172,6 +144,7 @@ nav img {
 	right:120px
 	margin:10px;
 }
+
 #img1{
 	position: relative;
 }
@@ -179,10 +152,19 @@ nav img {
 #cancel{
 	margin-top: 10px;
 }
+
 #enter-coupon{
 	width: 250px;
 	height: 20px;
 }
+
 #total-section{
 	overflow-y: scroll;
+}
+
+#number {
+	width: 300px;
+	height: 25px;
+	border-radius: 10px;
+	text-align: center;
 }
